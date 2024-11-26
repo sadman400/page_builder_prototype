@@ -25,9 +25,9 @@ const onDragEnd = () => {
 </script>
 
 <template>
-  <aside class="w-[200px] bg-gray-100 h-screen p-4 border-r border-gray-200">
+  <aside class="w-[200px] bg-gray-100 min-h-screen p-4 border-r border-gray-200">
     <div class="space-y-2">
-      <div v-for="tool in tools" 
+      <div v-for="tool in tools"
            :key="tool.label"
            draggable="true"
            @dragstart="(e) => onDragStart(e, tool)"
