@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/types/index.ts","./src/app.vue","./src/components/contentarea.vue","./src/components/contentblock.vue","./src/components/helloworld.vue","./src/components/richtexteditor.vue","./src/components/sidebar.vue","./src/components/blocks/buttonblock.vue","./src/components/blocks/imageblock.vue"],"version":"5.6.2"}
